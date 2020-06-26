@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="Regular (400)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="Medium (500)"
+            android:textFontWeight="500" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="Bold (700)"
+            android:textFontWeight="700" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="Extra Bold (800)"
+            android:textFontWeight="800" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="TextAppearance (default)"
+            android:textAppearance="@style/MyTextStyle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextAppearance (400)"
+            android:textAppearance="@style/MyTextStyle"
+            android:textFontWeight="400" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextAppearance (700)"
+            android:textAppearance="@style/MyTextStyle"
+            android:textFontWeight="700" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextAppearance (800)"
+            android:textAppearance="@style/MyTextStyle"
+            android:textFontWeight="800" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextAppearance (bold)"
+            android:textAppearance="@style/MyTextStyle"
+            android:textStyle="bold"
+             />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
